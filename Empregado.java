@@ -27,6 +27,14 @@ public class Empregado {
         this.idade = idade;
     }
 
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+    
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+
     public int getIdade() {
         return idade;
     }
